@@ -1,0 +1,33 @@
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	background: rgba(180, 145, 255, 0.2);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	border: solid red 0.1em;
+}
+h1 {
+	width: 100%;
+	text-align: center;
+}	
+p {
+	width: 100%;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	background: rgba(180, 145, 255, 0.2);
+	border: solid red 0.1em;
+}
+.news {
+	width: 50%;
+	order: 3;
+	font-size: 18px;
+}
+#breaking {
+	font-size: 25px;
+	order: -1;
+	width: 100%;
+	text-align: center;
+}
